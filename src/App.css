@@ -1,1 +1,17 @@
 /* add your styles here */
+#grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin-inline: 2vw;
+    margin-block: 1vh;
+    
+}
+#grid img{
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+}
